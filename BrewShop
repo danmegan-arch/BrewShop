@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrewShop Coffee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>BrewShop Coffee</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your Local Brew, Fresh Every Day</h2>
+    <p>At BrewShop, we combine craft roasting, cosy vibes, and community spirit — one cup at a time.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>BrewShop was founded in Dublin by coffee lovers who believe great coffee brings people together.
+       We roast small batches, support ethical sourcing, and bake everything fresh on site.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu Highlights</h2>
+    <ul>
+      <li><strong>House Latte</strong> — Smooth, rich espresso with creamy foam (€3.60)</li>
+      <li><strong>Single Origin Pour Over</strong> — Hand-brewed perfection (€4.00)</li>
+      <li><strong>Almond Croissant</strong> — Buttery, flaky, and baked daily (€3.10)</li>
+      <li><strong>Iced Matcha Latte</strong> — Fresh and vibrant (€3.80)</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvia.placeholder.com%2F300x200&data=05%7C02%7Cx23186381%40student.ncirl.ie%7C26615772199b4fad887308de1bba4042%7C6edb49c1bf724eea8b3fa7fd0a25b68c%7C0%7C0%7C638978683934169177%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=lgzmL16LZOC2P2klwQ98fsNHXN5lXjKzO3QIhNxcq9g%3D&reserved=0" alt="Coffee cup">
+      <img src="https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvia.placeholder.com%2F300x200&data=05%7C02%7Cx23186381%40student.ncirl.ie%7C26615772199b4fad887308de1bba4042%7C6edb49c1bf724eea8b3fa7fd0a25b68c%7C0%7C0%7C638978683934196779%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=2sqyzJufb5n81Xivo8OTEBn5RY9m8vb%2BkqTHlo5qXsk%3D&reserved=0" alt="Pastries">
+      <img src="https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvia.placeholder.com%2F300x200&data=05%7C02%7Cx23186381%40student.ncirl.ie%7C26615772199b4fad887308de1bba4042%7C6edb49c1bf724eea8b3fa7fd0a25b68c%7C0%7C0%7C638978683934214423%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=UEvlXjUE81LGHR1UKR2tDaWetuoojJTWGlKG69NFl2A%3D&reserved=0" alt="Cafe interior">
+      <img src="https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvia.placeholder.com%2F300x200&data=05%7C02%7Cx23186381%40student.ncirl.ie%7C26615772199b4fad887308de1bba4042%7C6edb49c1bf724eea8b3fa7fd0a25b68c%7C0%7C0%7C638978683934230316%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=nbvfe5W7dp3WNnVbiM0wSXVpVP9rPvpkj01rZ9x4YaU%3D&reserved=0" alt="Latte art">
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Ask BrewBot</h2>
+    <div class="chat-box">
+      <div id="chatLog"></div>
+      <input type="text" id="chatInput" placeholder="Ask a question (e.g., Are you open on Sundays?)">
+      <button onclick="sendMessage()">Ask</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Visit Us</h2>
+    <p>📍 12 Market Street, Dublin</p>
+    <p>📧 hello@brewshop.ie</p>
+    <p>📞 +353 00 000 0000</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> BrewShop Coffee | Follow us @brewshopdublin</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fdfaf6;
+}
+
+header {
+  background: #3e2723;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvia.placeholder.com%2F1200x400&data=05%7C02%7Cx23186381%40student.ncirl.ie%7Cdbe8b406fc204b7ab94608de1bba49f9%7C6edb49c1bf724eea8b3fa7fd0a25b68c%7C0%7C0%7C638978684089164477%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=7CVJ7YYvmBhAY2OYJpfY4pxswITosWHspS%2BrzYWoC50%3D&reserved=0') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #4b2e2b;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chat-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+#chatLog {
+  height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  background: white;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: left;
+}
+
+button {
+  background-color: #3e2723;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+
+// Show current year
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// Simple BrewBot chatbot
+function sendMessage() {
+  const chatInput = document.getElementById("chatInput");
+  const chatLog = document.getElementById("chatLog");
+  const userMsg = chatInput.value.trim();
+
+  if (userMsg === "") return;
+
+  chatLog.innerHTML += `<p><strong>You:</strong> ${userMsg}</p>`;
+
+  let botReply = "Thanks! A barista will get back to you soon.";
+  const lower = userMsg.toLowerCase();
+
+  if (lower.includes("open") || lower.includes("hours")) {
+    botReply = "We're open Mon–Fri 7:30–5pm, Sat–Sun 8:30–4pm!";
+  } else if (lower.includes("wifi")) {
+    botReply = "Yes! Free Wi-Fi for all customers — just ask at the counter.";
+  } else if (lower.includes("vegan")) {
+    botReply = "We offer oat, almond, and soy milk at no extra cost.";
+  } else if (lower.includes("location") || lower.includes("where")) {
+    botReply = "We're at 12 Market Street, Dublin — next to the bookshop.";
+  }
+
+  chatLog.innerHTML += `<p><strong>BrewBot:</strong> ${botReply}</p>`;
+  chatInput.value = "";
+  chatLog.scrollTop = chatLog.scrollHeight;
+}
